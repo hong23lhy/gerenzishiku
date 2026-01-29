@@ -1,0 +1,78 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "title": "写作沟通与统筹 · AI 辅助创作者",
+    "tagline": "用 TREA、Coze、OpenCode AI 高效产出内容与项目",
+    "avatar": "",
+    "socials": {
+      "email": "",
+      "wechat": "",
+      "telegram": "",
+      "github": "",
+      "portfolio": ""
+    }
+  },
+  "skills": [
+    {
+      "category": "沟通与写作",
+      "items": [
+        { "name": "结构化表达", "level": 0.9 },
+        { "name": "叙事与文案", "level": 0.9 }
+      ]
+    },
+    {
+      "category": "统筹与协调",
+      "items": [
+        { "name": "任务拆解与排期", "level": 0.9 },
+        { "name": "跨人群沟通", "level": 0.9 }
+      ]
+    },
+    {
+      "category": "AI 工具",
+      "items": [
+        { "name": "TREA", "level": 0.85 },
+        { "name": "Coze", "level": 0.85 },
+        { "name": "OpenCode AI", "level": 0.85 }
+      ]
+    },
+    {
+      "category": "网页实践",
+      "items": [
+        { "name": "作品呈现与复习网页", "level": 0.7 }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "time": "",
+      "role": "统筹志愿者",
+      "org": "夏令营",
+      "summary": "负责活动统筹与协调，落地执行与问题处理。",
+      "details": [
+        "统筹日程与物资，协调志愿者分工与沟通",
+        "在高压场景下保障流程顺畅与应急处理"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "练题复习网页",
+      "summary": "用于复习巩固知识点的网页项目，支持顺序练习与错题重做。",
+      "tags": ["Web", "复习", "练题"],
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "title": "AI 生成项目集",
+      "summary": "基于 TREA、Coze、OpenCode AI 的内容生成与整理项目集合。",
+      "tags": ["AI 辅助", "内容生成", "统筹"],
+      "demoUrl": "",
+      "repoUrl": ""
+    }
+  ],
+  "contact": {
+    "email": "",
+    "wechat": "",
+    "resumeUrl": ""
+  }
+}

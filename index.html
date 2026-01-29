@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>个人简历 · 炫酷交互版</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳过导航</a>
+  <header class="site-header" role="banner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"></div>
+      <div class="brand-name" aria-label="站点标题">Your Name</div>
+    </div>
+    <nav class="top-nav" role="navigation" aria-label="主导航">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">菜单</button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about">简介</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#experience">经历</a></li>
+        <li><a href="#projects">项目</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+      <button id="themeToggle" class="icon-btn" aria-pressed="false" aria-label="切换主题">🌓</button>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-label="个人名片">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">你好，我是 Your Name</h1>
+        <p class="hero-sub">全栈开发者 · 交互设计爱好者 · 探索型创造者</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">查看作品集</a>
+          <a href="#contact" class="btn btn-secondary">获取简历 PDF</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section">
+      <h2 class="section-title">关于我</h2>
+      <p class="lead">专注打造直观、迅捷、可访问的用户体验，擅长将复杂问题拆解为高效的交互流程。</p>
+      <ul class="about-highlights">
+        <li>敏捷交付，追求 100ms 级反馈与清晰状态可见性</li>
+        <li>跨端一致性，遵循平台与行业交互惯例</li>
+        <li>可访问优先，键盘与屏幕阅读器全覆盖</li>
+      </ul>
+    </section>
+    <section id="skills" class="section">
+      <h2 class="section-title">技能</h2>
+      <div class="skills-grid">
+        <div class="skill-card" tabindex="0" aria-label="前端 90%">
+          <div class="skill-head">
+            <span>前端</span><span>90%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--p:0.9"></div></div>
+          <div class="tags">React · TypeScript · CSS · Vite</div>
+        </div>
+        <div class="skill-card" tabindex="0" aria-label="后端 80%">
+          <div class="skill-head">
+            <span>后端</span><span>80%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--p:0.8"></div></div>
+          <div class="tags">Node.js · Express · SQL · Auth</div>
+        </div>
+        <div class="skill-card" tabindex="0" aria-label="交互设计 85%">
+          <div class="skill-head">
+            <span>交互设计</span><span>85%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--p:0.85"></div></div>
+          <div class="tags">反馈 · 动效 · 可发现性 · 无障碍</div>
+        </div>
+        <div class="skill-card" tabindex="0" aria-label="工程实践 80%">
+          <div class="skill-head">
+            <span>工程实践</span><span>80%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" style="--p:0.8"></div></div>
+          <div class="tags">CI/CD · 测试 · 监控 · 性能</div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="section">
+      <h2 class="section-title">经历</h2>
+      <ol class="timeline" aria-label="时间线">
+        <li class="timeline-item">
+          <div class="time">2023 - 至今</div>
+          <div class="content">
+            <h3>高级前端工程师 · Awesome Co.</h3>
+            <p>主导设计与实现多端统一的交互体系，提高转化率与任务完成效率。</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="time">2021 - 2023</div>
+          <div class="content">
+            <h3>全栈工程师 · Startup X</h3>
+            <p>打造高性能内容平台，端到端负责需求、交互、实现与上线。</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="time">2018 - 2021</div>
+          <div class="content">
+            <h3>交互设计实习 · Design Lab</h3>
+            <p>系统学习交互原则与心理学，参与多个用户测试与迭代项目。</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+    <section id="projects" class="section">
+      <h2 class="section-title">项目</h2>
+      <div class="projects-grid">
+        <article class="project-card" tabindex="0">
+          <div class="project-media"></div>
+          <div class="project-body">
+            <h3>交互组件库</h3>
+            <p>一致的动效与反馈体系，覆盖按钮、卡片、对话框、表单等常用组件。</p>
+            <div class="project-actions">
+              <a class="btn btn-primary" href="#" aria-label="查看演示">演示</a>
+              <a class="btn btn-secondary" href="#" aria-label="查看代码">代码</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0">
+          <div class="project-media"></div>
+          <div class="project-body">
+            <h3>可访问表单套件</h3>
+            <p>内置实时校验与提示，面向键盘与读屏用户的交互优化。</p>
+            <div class="project-actions">
+              <a class="btn btn-primary" href="#" aria-label="查看演示">演示</a>
+              <a class="btn btn-secondary" href="#" aria-label="查看代码">代码</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0">
+          <div class="project-media"></div>
+          <div class="project-body">
+            <h3>作品集网站</h3>
+            <p>响应式与动效平衡，移动端底部导航与桌面端顶栏导航统一。</p>
+            <div class="project-actions">
+              <a class="btn btn-primary" href="#" aria-label="查看演示">演示</a>
+              <a class="btn btn-secondary" href="#" aria-label="查看代码">代码</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <h2 class="section-title">联系我</h2>
+      <form class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">姓名</label>
+          <input id="name" name="name" type="text" inputmode="text" autocomplete="name" required aria-required="true">
+          <span class="error" aria-live="polite"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">邮箱</label>
+          <input id="email" name="email" type="email" inputmode="email" autocomplete="email" required aria-required="true">
+          <span class="error" aria-live="polite"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">消息</label>
+          <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+          <span class="error" aria-live="polite"></span>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">发送</button>
+          <button type="reset" class="btn btn-secondary">清除</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <button class="to-top" aria-label="回到顶部">↑</button>
+  <script src="./script.js"></script>
+</body>
+</html>
